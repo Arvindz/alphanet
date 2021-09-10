@@ -128,11 +128,6 @@ class CourseController extends Controller
         $course->delete();
         return redirect()->route('course.index')
             ->with('success', 'Course deleted successfully.');
-    }
-
-    public function abc(){
-        
-    }
-
+    } 
 
 }
