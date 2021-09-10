@@ -130,5 +130,9 @@ class CourseController extends Controller
             ->with('success', 'Course deleted successfully.');
     }
 
+    public function abc(){
+        
+    }
+
 
 }
